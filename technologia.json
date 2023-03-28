@@ -1,0 +1,121 @@
+{
+    "tech": [
+        {
+            "Nazwa": "Prod_1",
+            "idop": 100,
+            "operacja_nazwa": "przegotowanie form",
+            "norma": "65min/10000szt",
+            "asortyment powiazany": "Asor_1",
+            "id_wejsciowe": 0,
+            "opuznienie startu nastepnej operacji": 0,
+            "przelicznik z poprzedniej operacji": null,
+            "id_wyjsciowe": 200,
+            "rodzaj_startu": null,
+            "start_przy_zapasie_z_porzedniej_operacji": null
+        },
+        {
+            "Nazwa": "Prod_1",
+            "idop": 200,
+            "operacja_nazwa": "formowanie reczne",
+            "norma": "100szt/h",
+            "asortyment powiazany": "Asor_1",
+            "id_wejsciowe": 100,
+            "opuznienie startu nastepnej operacji": "130m",
+            "przelicznik z poprzedniej operacji": 1,
+            "id_wyjsciowe": 400,
+            "rodzaj_startu": null,
+            "start_przy_zapasie_z_porzedniej_operacji": null
+        },
+        {
+            "Nazwa": "Prod_1",
+            "idop": 300,
+            "operacja_nazwa": "giecie preta",
+            "norma": "400szt/h",
+            "asortyment powiazany": "Asor_1",
+            "id_wejsciowe": 0,
+            "opuznienie startu nastepnej operacji": 0,
+            "przelicznik z poprzedniej operacji": null,
+            "id_wyjsciowe": 400,
+            "rodzaj_startu": null,
+            "start_przy_zapasie_z_porzedniej_operacji": null
+        },
+        {
+            "Nazwa": "Prod_1",
+            "idop": 400,
+            "operacja_nazwa": "klenie uszek reczne",
+            "norma": "120szt/h",
+            "asortyment powiazany": "Asor_1",
+            "id_wejsciowe": 200,
+            "opuznienie startu nastepnej operacji": 0,
+            "przelicznik z poprzedniej operacji": 1,
+            "id_wyjsciowe": 600,
+            "rodzaj_startu": null,
+            "start_przy_zapasie_z_porzedniej_operacji": null
+        },
+        {
+            "Nazwa": "Prod_1",
+            "idop": 400,
+            "operacja_nazwa": "klenie uszek reczne",
+            "norma": "120szt/h",
+            "asortyment powiazany": "Asor_1",
+            "id_wejsciowe": 300,
+            "opuznienie startu nastepnej operacji": 0,
+            "przelicznik z poprzedniej operacji": 1,
+            "id_wyjsciowe": 600,
+            "rodzaj_startu": null,
+            "start_przy_zapasie_z_porzedniej_operacji": null
+        },
+        {
+            "Nazwa": "Prod_1",
+            "idop": 500,
+            "operacja_nazwa": "ciecie kartonu",
+            "norma": "130kpl/h",
+            "asortyment_powiazany": "Szklanka Caffelatte 200ml kpl 6szt",
+            "id_wejsciowe": 0,
+            "opuznienie startu nastepnej operacji": 0,
+            "przelicznik z poprzedniej operacji": null,
+            "id_wyjsciowe": 600,
+            "rodzaj_startu": null,
+            "start_przy_zapasie_z_porzedniej_operacji": null
+        },
+        {
+            "Nazwa": "Prod_1",
+            "idop": 600,
+            "operacja_nazwa": "pakowanie",
+            "norma": "250kpl/h",
+            "asortyment_powiazany": "Szklanka Caffelatte 200ml kpl 6szt",
+            "id_wejsciowe": 400,
+            "opuznienie startu nastepnej operacji": 0,
+            "przelicznik z poprzedniej operacji": "6szt/kpl",
+            "id_wyjsciowe": 700,
+            "rodzaj_startu": null,
+            "start_przy_zapasie_z_porzedniej_operacji": null
+        },
+        {
+            "Nazwa": "Prod_1",
+            "idop": 600,
+            "operacja_nazwa": "pakowanie",
+            "norma": "250kpl/h",
+            "asortyment_powiazany": "Szklanka Caffelatte 200ml kpl 6szt",
+            "id_wejsciowe": 500,
+            "opuznienie startu nastepnej operacji": 0,
+            "przelicznik z poprzedniej operacji": 1,
+            "id_wyjsciowe": 700,
+            "rodzaj_startu": null,
+            "start_przy_zapasie_z_porzedniej_operacji": null
+        },
+        {
+            "Nazwa": "Prod_1",
+            "idop": 700,
+            "operacja_nazwa": "zaladunek",
+            "norma": "600kpl/h",
+            "asortyment_powiazany": "Szklanka Caffelatte 200ml kpl 6szt",
+            "id_wejsciowe": 600,
+            "opuznienie startu nastepnej operacji": 0,
+            "przelicznik z poprzedniej operacji": 1,
+            "id_wyjsciowe": 700,
+            "rodzaj_startu": null,
+            "start_przy_zapasie_z_porzedniej_operacji": null
+        }
+    ]
+}
