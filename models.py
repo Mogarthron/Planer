@@ -21,9 +21,9 @@ Base = declarative_base()
 class Technologia(Base):
     __tablename__ = "technologia"
 
-    nazwa = Column("nazwa", String)
+    nazwa = Column("nazwa", String) #Nazawa technologii
     id_operacji = Column("id_operacji", Integer, primary_key=True)
-    operacja_nazwa = Column("operacja_nazwa", String)
+    operacja_nazwa = Column("operacja_nazwa", String) #przypisanie do odpowiednich stanowisk
     norma = Column("norma", String)
     asortyment_powiazany = Column("asortyment_powiazany", String)
     id_wejsciowe = Column("id_wejsciowe", Integer)
@@ -62,9 +62,11 @@ Base.metadata.create_all(bind=engine)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-op1 = Technologia("Szklanka Caffe Latte 200ml kpl 6 szt",100, "przygotowanie form",
-                  "65min/10000", "Forma Latte 200", 0, 
-                  200)
+# op1 = Technologia("Szklanka Caffe Latte 200ml kpl 6 szt",100, "przygotowanie form",
+#                   "65min/10000", "Forma Latte 200", 0, 
+#                   200)
 
-session.add(op1)
+# session.add(op1)
+session.query(Technologia)
+
 session.commit()
