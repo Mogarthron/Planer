@@ -1,11 +1,11 @@
 {
     "tech": [
         {
-            "Nazwa": "Prod_1",
+            "Nazwa": "Szklanka Caffelatte 200ml klp 6szt",
             "idop": 100,
             "operacja_nazwa": "przegotowanie form",
             "norma": "65min/10000szt",
-            "asortyment_powiazany": "Asor_1",
+            "asortyment_powiazany": "Forma XYZ2",
             "id_wejsciowe": 0,
             "opuznienie startu nastepnej operacji": 0,
             "przelicznik z poprzedniej operacji": null,
@@ -14,11 +14,11 @@
             "start_przy_zapasie_z_porzedniej_operacji": null
         },
         {
-            "Nazwa": "Prod_1",
+            "Nazwa": "Szklanka Caffelatte 200ml klp 6szt",
             "idop": 200,
             "operacja_nazwa": "formowanie reczne",
             "norma": "100szt/h",
-            "asortyment_powiazany": "Asor_1",
+            "asortyment_powiazany": "Szklanka Caffe Latte 200ml",
             "id_wejsciowe": 100,
             "opuznienie startu nastepnej operacji": "130m",
             "przelicznik z poprzedniej operacji": 1,
@@ -27,11 +27,11 @@
             "start_przy_zapasie_z_porzedniej_operacji": null
         },
         {
-            "Nazwa": "Prod_1",
+            "Nazwa": "Szklanka Caffelatte 200ml klp 6szt",
             "idop": 300,
             "operacja_nazwa": "giecie preta",
-            "norma": "400szt/h",
-            "asortyment_powiazany": "Asor_1",
+            "norma": "800szt/h",
+            "asortyment_powiazany": "pret d5",
             "id_wejsciowe": 0,
             "opuznienie startu nastepnej operacji": 0,
             "przelicznik z poprzedniej operacji": null,
@@ -40,11 +40,11 @@
             "start_przy_zapasie_z_porzedniej_operacji": null
         },
         {
-            "Nazwa": "Prod_1",
+            "Nazwa": "Szklanka Caffelatte 200ml klp 6szt",
             "idop": 400,
             "operacja_nazwa": "klenie uszek reczne",
             "norma": "120szt/h",
-            "asortyment_powiazany": "Asor_1",
+            "asortyment_powiazany": "Szklanka Caffe Latte 200ml",
             "id_wejsciowe": 200,
             "opuznienie startu nastepnej operacji": 0,
             "przelicznik z poprzedniej operacji": 1,
@@ -53,11 +53,11 @@
             "start_przy_zapasie_z_porzedniej_operacji": null
         },
         {
-            "Nazwa": "Prod_1",
+            "Nazwa": "Szklanka Caffelatte 200ml klp 6szt",
             "idop": 400,
             "operacja_nazwa": "klenie uszek reczne",
             "norma": "120szt/h",
-            "asortyment_powiazany": "Asor_1",
+            "asortyment_powiazany": "pret d5",
             "id_wejsciowe": 300,
             "opuznienie startu nastepnej operacji": 0,
             "przelicznik z poprzedniej operacji": 1,
@@ -65,12 +65,12 @@
             "rodzaj_startu": null,
             "start_przy_zapasie_z_porzedniej_operacji": null
         },
-        {
-            "Nazwa": "Prod_1",
+        {      
+            "Nazwa": "Szklanka Caffelatte 200ml klp 6szt",
             "idop": 500,
             "operacja_nazwa": "ciecie kartonu",
             "norma": "130kpl/h",
-            "asortyment_powiazany": "Szklanka Caffelatte 200ml kpl 6szt",
+            "asortyment_powiazany": "arkusz kartonu 1200x1200",
             "id_wejsciowe": 0,
             "opuznienie startu nastepnej operacji": 0,
             "przelicznik z poprzedniej operacji": null,
@@ -79,7 +79,7 @@
             "start_przy_zapasie_z_porzedniej_operacji": null
         },
         {
-            "Nazwa": "Prod_1",
+            "Nazwa": "Szklanka Caffelatte 200ml klp 6szt",
             "idop": 600,
             "operacja_nazwa": "pakowanie",
             "norma": "250kpl/h",
@@ -92,7 +92,7 @@
             "start_przy_zapasie_z_porzedniej_operacji": null
         },
         {
-            "Nazwa": "Prod_1",
+            "Nazwa": "Szklanka Caffelatte 200ml klp 6szt",
             "idop": 600,
             "operacja_nazwa": "pakowanie",
             "norma": "250kpl/h",
@@ -105,7 +105,7 @@
             "start_przy_zapasie_z_porzedniej_operacji": null
         },
         {
-            "Nazwa": "Prod_1",
+            "Nazwa": "Szklanka Caffelatte 200ml klp 6szt",
             "idop": 700,
             "operacja_nazwa": "zaladunek",
             "norma": "600kpl/h",
