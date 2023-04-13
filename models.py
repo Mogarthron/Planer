@@ -14,13 +14,18 @@ Base = declarative_base()
             # "rodzaj_startu": null,
             # "start_przy_zapasie_z_porzedniej_operacji": null
 
+class Stanowiska(Base):
+    
+    __tablename__ = "stanowiska"
 
+    nazwa = Column("nazwa", String)
+    
 
 class Technologia(Base):
 
     __tablename__ = "technologia"
 
-    nazwa = Column("nazwa", String) #Nazawa technologii
+    nazwa = Column("nazwa", String) #Nazwa technologii
     id_operacji = Column("id_operacji", Integer, primary_key=True)
     operacja_nazwa = Column("operacja_nazwa", String) #przypisanie do odpowiednich stanowisk
     norma = Column("norma", String)
@@ -30,6 +35,6 @@ class Technologia(Base):
     rodzaj_startu = Column("rodzaj_startu", String, default="ES")
     przelicznik_z_poprzedniej_operacji = Column("przelicznik_z_poprzedniej_operacji",String, default="1")
     opuznienie_startu_nastepnej_operacji = Column("opuznienie startu nastepnej operacji", String)
-    start_przy_zapasie_z_porzedniej_operacji = Column("start_przy_zapasie_z_porzedniej_operacji", String)
+    start_przy_zapasie_z_porzedniej_operacji = Column("start_przy_zapasie_z_porzedniej_operacji", String, default="-1")
 
 
